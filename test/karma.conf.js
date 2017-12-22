@@ -30,6 +30,8 @@ module.exports = function(config) {
       'bower_components/angular-touch/angular-touch.js',
       'bower_components/bootstrap/dist/js/bootstrap.js',
       'bower_components/angular-mocks/angular-mocks.js',
+      'bower_components/angular-swipe/dist/angular-swipe.js',
+      'bower_components/angular-carousel-3d/dist/carousel-3d.js',
       // endbower
       'app/scripts/**/*.js',
       'test/mock/**/*.js',

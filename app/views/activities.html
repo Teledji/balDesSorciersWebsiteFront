@@ -1,0 +1,10 @@
+<body ng-controller="ActivitiesCtrl">
+    <div carousel3d ng-model="slides" id="my3dCarousel">
+        <div carousel3d-slide ng-repeat="slide in slides track by $index">
+            <figure>
+                <img ng-src="{{slide.src}}" alt=""/>
+                <figcaption ng-bind="slide.caption"></figcaption>
+            </figure>
+        </div>
+    </div>
+</body>

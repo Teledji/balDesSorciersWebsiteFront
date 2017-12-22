@@ -1,0 +1,31 @@
+#mainContainer{
+    min-height: 100vh;
+}
+
+#login{
+    margin-top: 9%;
+    margin-right: 10px;
+}
+
+#logoME{
+    padding: 2px 4px;
+}
+
+#backPicture{
+    height: 100%;
+}
+
+#balds{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 0.5%;
+    color: white;
+    font-size: 30px;
+    color: white;
+    font-family: 'HarryP', sans-serif;
+}
+
+@font-face {
+    font-family: "HarryP";
+    src: url("/fonts/HarryP.TTF");
+}

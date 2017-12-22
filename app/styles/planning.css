@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .zoneGauche{
+    background-color: #e66242a1;
+    float: left;
+    width: 49.9%;
+    height: 500px;
+  }
+  
+  .zoneDroite{
+    background-color: #d14a2ca1;
+    float: right;
+    width: 49.9%;
+    height: 500px;
+  }
+  
+  .zoneBas{
+    background-color: #bee62eab;
+    display: inline-block;
+    margin-top: 0.2%;
+    width: 100%;
+    height: 300px; 
+  }
+  
+  .zoneHaut{
+    background-color: #2ee681ab;
+    display: inline-block;
+    margin-bottom: 0.2%;
+    width: 100%;
+    height: 150px; 
+  }
+
+  body {
+    padding-top: 50px;
+  }
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }

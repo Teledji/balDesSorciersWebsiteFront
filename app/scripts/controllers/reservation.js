@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc function
- * @name frontDemoApp.controller:AboutCtrl
+ * @name frontDemoApp.controller:ReservationCtrl
  * @description
- * # AboutCtrl
+ * # ReservationCtrl
  * Controller of the frontDemoApp
  */
 var app = angular.module('frontDemoApp');
 
-app.controller('AboutCtrl', function ($scope) {
+app.controller('ReservationCtrl', function ($scope) {
   $scope.awesomeThings = [
     'HTML5 Boilerplate',
     'AngularJS',
