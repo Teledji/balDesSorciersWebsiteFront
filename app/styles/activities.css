@@ -1,11 +1,127 @@
-#3dCarou{
-    min-height: 100vh;
+body {
+    background: #333;
+    overflow-x: hidden;
 }
 
-#fkvgn{
-    font-size: 150px;
+#carousselContainer{
+    margin-top: 50px;
+    background-color: #000000;
+    z-index: 10;
 }
 
-#my3dCarousel{
-    height: 1000px;
+.headPicture{
+    width: 100%;
+    height: 30%;
+    background-size: cover;
+}
+
+.myPictures{
+    max-height: 100%;
+    z-index: 1;
+}
+
+#leftDiv{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    float: left;
+}
+
+#rightDiv{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    float: right;
+    margin-left: 50%;
+}
+
+.contentDiv{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    background-color: #000000;
+}
+
+.carousel3d {
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    margin: -19em 0 0 -17.5em;
+    -webkit-perspective: 70em;
+    perspective: 70em;
+}
+
+.carousel3d .controls {
+    width: 30%;
+    position: absolute;
+    color: #fff;
+    font-size: 5em;
+    top: 100%;
+    left: 37%;
+  
+}
+.carousel3d .controls a {
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.carousel3d .controls a.next {
+    float: right; 
+}
+  
+.window {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+.window .pane {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #333;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+}
+  
+.window .pane h1 {
+    font-size: 7em;
+    margin-top: 1.4em;
+}
+.pane.left img,
+.pane.right img {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.pane{
+    align-content: center;
+}
+
+.pane.left {
+    -webkit-transform: translate3d(-25em, 0, -20em) rotateY(50deg);
+    transform: translate3d(-25em, 0, -20em) rotateY(50deg);
+}
+.pane.left.hide {
+    opacity: 0;
+    -webkit-transform: translate3d(-35em, 0, -30em) rotateY(40deg);
+    transform: translate3d(-35em, 0, -30em) rotateY(40deg);
+}
+.pane.right {
+    -webkit-transform: translate3d(25em, 0, -20em) rotateY(-50deg);
+    transform: translate3d(25em, 0, -20em) rotateY(-50deg);
+}
+.pane.right.hide {
+    opacity: 0;
+    -webkit-transform: translate3d(35em, 0, -30em) rotateY(-40deg);
+    transform: translate3d(35em, 0, -30em) rotateY(-40deg);
 }

@@ -1,10 +1,20 @@
 <body ng-controller="ActivitiesCtrl">
-    <div carousel3d ng-model="slides" id="my3dCarousel">
-        <div carousel3d-slide ng-repeat="slide in slides track by $index">
-            <figure>
-                <img ng-src="{{slide.src}}" alt=""/>
-                <figcaption ng-bind="slide.caption"></figcaption>
-            </figure>
+    <div id="carousselContainer">
+        <div class="carousel3d" ng-app="carouselTest">
+            <div class="window">
+                <div class="pane" ng-repeat="(key,src) in images" ng-class="position(key)">
+                    <div id="leftDiv" ng-click="prev()">
+                    </div>
+                    <div id="rightDiv" ng-click="next()">      
+                    </div>
+                    <div class="headPicture" style="background:url('{{src}}'); background-size: cover;">
+                        <!--<img class="myPictures" ng-src=""/>  -->
+                    </div>
+                    <div class="contentDiv">
+                            Hello, i'm the content !
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </div>   
 </body>
