@@ -1,20 +1,21 @@
 <body ng-controller="ActivitiesCtrl">
+    <div class="headerActivities">
+    </div>
+    <h1 class="title">Activites</h1>
     <div id="carousselContainer">
         <div class="carousel3d" ng-app="carouselTest">
             <div class="window">
                 <div class="pane" ng-repeat="(key,src) in images" ng-class="position(key)">
-                    <div id="leftDiv" ng-click="prev()">
-                    </div>
-                    <div id="rightDiv" ng-click="next()">      
-                    </div>
+                    <div id="leftDiv" ng-click="prev()"/>
+                    <div id="rightDiv" ng-click="next()"/>      
                     <div class="headPicture" style="background:url('{{src}}'); background-size: cover;">
-                        <!--<img class="myPictures" ng-src=""/>  -->
                     </div>
                     <div class="contentDiv">
-                            Hello, i'm the content !
+                        <ng-include src="positionForElement(key)"></ng-include>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>   
-</body>
+        </div> 
+    </div>
+   
+</body> 

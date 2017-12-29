@@ -4,15 +4,19 @@ body {
 }
 
 #carousselContainer{
-    margin-top: 50px;
-    background-color: #000000;
-    z-index: 10;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .headPicture{
     width: 100%;
     height: 30%;
-    background-size: cover;
 }
 
 .myPictures{
@@ -25,6 +29,7 @@ body {
     height: 100%;
     position: absolute;
     float: left;
+    z-index:11;
 }
 
 #rightDiv{
@@ -33,22 +38,22 @@ body {
     position: absolute;
     float: right;
     margin-left: 50%;
+    z-index:10;
 }
 
 .contentDiv{
     width: 100%;
     height: 70%;
     position: absolute;
-    background-color: #000000;
+    background-color: #d8c5c5;
+    z-index: 1;
 }
 
 .carousel3d {
     position: absolute;
     height: 50%;
     width: 40%;
-    top: 50%;
-    left: 50%;
-    margin: -19em 0 0 -17.5em;
+    top: 45%;
     -webkit-perspective: 70em;
     perspective: 70em;
 }
@@ -124,4 +129,24 @@ body {
     opacity: 0;
     -webkit-transform: translate3d(35em, 0, -30em) rotateY(-40deg);
     transform: translate3d(35em, 0, -30em) rotateY(-40deg);
+}
+
+.headerActivities{
+    width: 100%;
+    height: 30vh;
+    padding-top: 50px;
+    background-image: url("/images/Home/ActivitiesHeader.jpg");
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'Sorcerer', sans-serif;
+    margin-top : 2%;
+}
+
+@font-face {
+    font-family: "Sorcerer";
+    src: url("/fonts/SorciereNoire.ttf");
 }
