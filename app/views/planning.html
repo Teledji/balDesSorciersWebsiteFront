@@ -1,18 +1,13 @@
 <body>
-  <Br/>
-  <Br/>
-  <Br/>
-  <Br/>
-  <Br/>
-  <table>
-    <tr ng-repeat="activitie in activities">
-      <td>{{activitie.name}}</td>
-      <td>{{activitie.description}}</td>
-      <td>{{activitie.room}}</td>
-      <td>{{activitie.time}}</td>
-      <td>{{activitie.money}}</td>
-    </tr>
-  </table>
+  <div class="planningTab">
+    <ul class="nav nav-tabs nav-justified">
+      <li class="samedi" role="presentation" ng-model="isSamediActive" ng-class="{active: isSamediActive}" id="samedi"><a ng-click="setActive(1)">Programme Samedi 28/10</a></li>
+      <li class="dimanche" role="presentation" ng-model="isDimancheActive" ng-class="{active: isDimancheActive}" id="dimanche"><a ng-click="setActive(2)">Programme Dimanche 29/10</a></li>
+    </ul>
+  </div>
+  <div>
+    <ng-include src="getContentBySelectedDay()"></ng-include>
+  </div>
 </body>
   
   
