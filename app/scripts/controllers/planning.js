@@ -35,10 +35,6 @@ app.controller('PlanningCtrl', function ($scope) {
     return prefix + url;
   }
 
-  $scope.category = [
-    
-  ]
-
   $scope.activitiesSamedi= [
     {
       name: "Acceuil",

@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="bower_components/angular-carousel-3d/dist/carousel-3d.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="frontDemoApp">
+  <body ng-app="frontDemoApp" ng-controller="IndexCtrl">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -33,13 +33,12 @@
       </div>
       <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Accueil</a></li>
-          <li><a href="#about">Présentation</a></li>
-          <li><a href="#activities">Activités</a></li>
-          <li><a href="#planning">Planning</a></li>
-          <li><a href="#reservation">Billeterie</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li></li>
+          <li ng-class="{ active: isActive('/')}"><a href="#">Accueil</a></li>
+          <li ng-class="{ active: isActive('/about')}"><a href="#about">Présentation</a></li>
+          <li ng-class="{ active: isActive('/activities')}"><a href="#activities">Activités</a></li>
+          <li ng-class="{ active: isActive('/planning')}"><a href="#planning">Planning</a></li>
+          <li ng-class="{ active: isActive('/reservation')}"><a href="#reservation">Billeterie</a></li>
+          <li ng-class="{ active: isActive('/contact')}"><a href="#contact">Contact</a></li>
       </ul>
       <div id="balds">
         LE BAL DES SORCIERS
