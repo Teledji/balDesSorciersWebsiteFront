@@ -1,0 +1,159 @@
+{
+    "activities":[
+    {
+        "name": "Acceuil",
+        "description": "Bievenue au bal des sorciers ! Discours de Magical Event",
+        "descriptionInfobulle": "Il n’est jamais trop tard pour rendre un dernier hommage à l’homme le plus courageux que le monde des sorciers ait jamais connu. Laissez vos pensée se diluer et s’évaporer dans une superbe pensine ancrée dans une stèle fabriquée par l’association Imagivienne. In memory of the bravest man we have ever know.",
+        "room": "Salle du trône",
+        "time": "9h30",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "10h00",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "10h30",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "11h00",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "11h30",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "12h00",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "12h30",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "13h30",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "14h00",
+        "money": "10€"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "14h30",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "15h00",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "15h30",
+        "money": "1€"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "16h00",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "16h30",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "17h00",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "17h30",
+        "money": "2€"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "18h00",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "18h30",
+        "money": "/"
+      },
+      {
+        "name": "Escape Game",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "19h00",
+        "money": "/"
+      },
+      {
+        "name": "Banquet",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "20h00",
+        "money": "5€"
+      },
+      {
+        "name": "Ouverture du bal",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "22h00",
+        "money": "/"
+      },
+      {
+        "name": "Clôture du bal",
+        "description": "tentez de vous échapper de la salle !",
+        "room": "Salle du trône",
+        "time": "03h00",
+        "money": "/"
+      }
+    ]
+}

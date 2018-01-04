@@ -1,7 +1,11 @@
   <table class="activitiesTab dimancheTab">
     <tr ng-repeat="activitie in activitiesDimanche">
       <td>{{activitie.name}}</td>
-      <td>{{activitie.description}}</td>
+      <td>
+        <p>{{activitie.description}} <br/>
+          <span>{{activitie.descriptionInfobulle}}</span>
+        </p>
+      </td>
       <td>{{activitie.room}}</td>
       <td>{{activitie.time}}</td>
       <td>{{activitie.money}}</td>
