@@ -41,6 +41,16 @@ body {
     z-index:10;
 }
 
+#leftDiv:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+    border: none;
+}
+
+#rightDiv:hover{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+    border: none;
+}
+
 .contentDiv{
     width: 100%;
     height: 70%;
@@ -144,6 +154,7 @@ body {
     font-size: 10vh;
     font-family: 'Sorcerer', sans-serif;
     margin-top : 60px;
+    overflow:none;
 }
 
 @font-face {

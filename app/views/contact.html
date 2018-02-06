@@ -14,17 +14,17 @@
                     <form class="form-horizontal">
                         <div class="form-group">
                         <label for="exampleInputName2">Nom</label>
-                        <input ng-model="email.nom" type="text" class="form-control" id="exampleInputName2" placeholder="Bernard Dupont">
+                        <input ng-model="email.name" type="text" class="form-control" id="exampleInputName2" placeholder="Bernard Dupont">
                         </div>
                         <div class="form-group">
                         <label for="exampleInputEmail2">E-Mail</label>
-                        <input ng-model="email.email" type="email" class="form-control" id="exampleInputEmail2" placeholder="xXxdarkbernard71xXx@trodark.com">
+                        <input ng-model="email.address" type="email" class="form-control" id="exampleInputEmail2" placeholder="xXxdarkbernard71xXx@trodark.com">
                         </div>
                         <div class="form-group ">
                         <label for="exampleInputText">Votre message</label>
-                        <textarea ng-model="email.message" class="form-control" placeholder="Votre message..."></textarea> 
+                        <textarea ng-model="email.content" class="form-control" placeholder="Votre message..."></textarea> 
                         </div>
-                        <button type="submit" class="btn btn-default" ng-click="emailToSend();showAlert($event)">Send Message</button>
+                        <button type="submit" class="btn btn-default" ng-click="sendEmail();showAlert($event)">Send Message</button>
                     </form>
 
                     <hr>
@@ -36,6 +36,8 @@
                     </ul>
                     </div>
                 </div>
+
+                <button type="submit" class="btn btn-default" ng-click="testInsertNewUser()">Send request</button>
                 </div>
             </div>
     </section> 

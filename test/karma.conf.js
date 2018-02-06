@@ -32,6 +32,10 @@ module.exports = function(config) {
       'bower_components/angular-mocks/angular-mocks.js',
       'bower_components/angular-swipe/dist/angular-swipe.js',
       'bower_components/angular-carousel-3d/dist/carousel-3d.js',
+      'bower_components/material/js/material.js',
+      'bower_components/angular-aria/angular-aria.js',
+      'bower_components/angular-messages/angular-messages.js',
+      'bower_components/angular-material/angular-material.js',
       // endbower
       'app/scripts/**/*.js',
       'test/mock/**/*.js',
